@@ -1,0 +1,56 @@
+.flex-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.first {
+  background-color: red;
+  flex: 1;
+  padding: 20px;
+}
+
+.second {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.second-a {
+  background-color: yellow;
+  flex: 1;
+}
+
+.second-b {
+  background-color: orange;
+  flex: 1;
+  display: flex;
+}
+
+.second-b-1 {
+  background-color: aqua;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-b-2 {
+  background-color: blueviolet;
+  flex: 1;
+}
+
+.b-1-a {
+  background-color: darkgreen;
+  display: flex;
+}
+
+.first-b-1-a {
+  background-color: hotpink;
+  flex: 1;
+}
+
+.second-b-1-a {
+  background-color: orangered;
+  flex: 1;
+}
